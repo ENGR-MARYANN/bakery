@@ -1,0 +1,25 @@
+.nav-link li::after{
+    content: '';
+    width: 0%;
+    height: 2px;
+    display: block;
+    background:#F4E3B2;
+    margin: auto;
+    transition: 0.5s;
+    cursor: pointer;
+}
+.nav-link li:hover:after{
+    width: 100%;  
+}
+.butu1:hover{
+    border: 2px solid #FFD151;
+    background: transparent;
+    border-radius: 8px;
+    transition: 1s;
+}
+.butu2:hover{
+    border: 2px solid #FFD151;
+    background-color: #FFD151;
+    border-radius: 8px;
+    transition: 1s;
+}
